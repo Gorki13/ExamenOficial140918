@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:b="http://bootsfaces.net/ui">
+    <h:head>
+        <title>Lista de categorias</title>
+    </h:head>
+    <h:body>
+        <h2>DataTable Categoria</h2>
+
+        <h:form>
+            <b:dataTable value="#{categoriaCtrl.list}"
+                         var="selected">
+                <b:dataTableColumn value="#{selected.id_categoria}" />
+                <b:dataTableColumn value="#{selected.name_cat}" />
+                <b:dataTableColumn value="#{selected.estado}" />
+            </b:dataTable>
+        </h:form>
+
+    </h:body>
+</html>
+

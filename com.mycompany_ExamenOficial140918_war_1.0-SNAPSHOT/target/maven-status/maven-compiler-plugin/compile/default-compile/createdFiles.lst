@@ -1,0 +1,12 @@
+com\mycompany\controller\VentaCtrl.class
+com\mycompany\controllerimpl\VentaCtrlImpl.class
+com\mycompany\configbd\Conexionbd.class
+com\mycompany\controller\DetalleventaCtrl.class
+com\mycompany\modell\Deatalleventa.class
+com\mycompany\dao\VentaDAO.class
+com\mycompany\dao\DetalleventaDAO.class
+com\mycompany\controllerimpl\ProductoCtrlImpl.class
+com\mycompany\dao\ProductoDAO.class
+com\mycompany\modell\Venta.class
+com\mycompany\controller\ProductoCtrl.class
+com\mycompany\modell\Producto.class
